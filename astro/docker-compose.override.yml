@@ -6,3 +6,6 @@ services:
     volumes:
       - ../dbt:/usr/local/airflow/dbt
       - /Users/cmarteepants/snowflake_rsa_key.p8:/usr/local/airflow/snowflake_rsa_key.p8
+  webserver:
+    volumes:
+      - ../dbt:/usr/local/airflow/dbt
