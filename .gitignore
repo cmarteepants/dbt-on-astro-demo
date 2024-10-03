@@ -1,3 +1,6 @@
+# astro-specific
+./astro/airflow_settings.yaml
+
 # dbt-specific
 dbt/logs/*
 
